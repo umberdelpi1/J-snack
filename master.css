@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  display:table;
+  content:"";
+  clear:both;
+}
+
+.container{
+  height: 600px;
+  width: 600px;
+  background-color: white;
+  margin: 50px auto;
+}
+.square {
+  height: 100px;
+  width: 100px;
+  border:1px solid black;
+  float:left;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
